@@ -1,5 +1,5 @@
 ﻿---
-title: "[Linux] UnicodeDecordeError"
+title: "[Linux] UnicodeDecodeError"
 categories: 
   - Linux
 last_modified_at: 2018-10-13
