@@ -1,4 +1,4 @@
-﻿---
+---
 title:  "[Jekyll] 상단 Navigation에 메뉴 추가하기"
 author: dsaint31
 
