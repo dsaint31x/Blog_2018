@@ -42,6 +42,55 @@ main:
     url: "/publications/"
 ```
 
+2. `_pages` 디렉토리에 추가하고자 하는 개인소개 페이지에 해당하는 markdown 파일 `about.md`과 publication정보를 가진 `publications.md`파일을 추가하고 내용을 다음과 같이 작성.
+
+**about.md 파일**
+```
+---
+permalink: /about/
+title: "About"
+excerpt: "about.md"
+last_modified_at: 2018-07-01T12:04:24-04:00
+toc: true
+tags: [About]
+---
+쓸 내용들
+```
+
+**publications.md 파일**
+```
+---
+permalink: /publications/
+title: "Publications"
+excerpt: "publications.md"
+last_modified_at: 2018-10-18 17:13:00
+toc: true
+tags: [publication]
+---
+
+## Journal
+쓸내용들
+```
+
+3. 년단위 post를 보여주는 `year-archive.html`을 추가함. 
+
+**year-archive.html 파일**
+```
+---
+layout: archive
+permalink: /year-archive/
+titile: "Posts by Year"
+author_profile: true
+---
+
+{% assign postsByYear = site.posts | group_by_exp:"post", "post.date | date: '%Y'"  %}
+{% for year in postsByYear %}
+  <h2 id="{{ year.name | slugify }}" class="archive__subtitle">{{ year.name }}</h2>
+  {% for post in year.items %}
+    {% include archive-single.html %}
+  {% endfor %}
+{% endfor %}
+```
 
 4. 이후 `git add`와 `git commit`을 수행해주고, `git push`로 마무리.
 
