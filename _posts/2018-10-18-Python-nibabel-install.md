@@ -1,4 +1,4 @@
-﻿---
+---
 title: "[Python] Conversion Analyze file to NIfTI file"
 author: dsaint31
 
