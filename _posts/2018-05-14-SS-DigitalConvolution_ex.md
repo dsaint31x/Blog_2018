@@ -1,12 +1,11 @@
 ---
-layout: post
 title:  "[SS] Digital Convolution 예제"
 date:   2018-05-14 14:33:59
-author: dsaint31
 categories: Signals_and_Systems
 use_math: true
 tags: convolution 
 ---
+
 # Digital Convolution : example
 @(Signal and System)[#convolution]
 
