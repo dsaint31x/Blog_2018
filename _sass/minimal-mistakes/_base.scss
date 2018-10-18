@@ -35,15 +35,15 @@ h6 {
 
 h1 {
   margin-top: 0;
-  font-size: $type-size-4;
+  font-size: $type-size-3;
 }
 
 h2 {
-  font-size: $type-size-5;
+  font-size: $type-size-4;
 }
 
 h3 {
-  font-size: $type-size-6;
+  font-size: $type-size-5;
 }
 
 h4 {
@@ -192,11 +192,13 @@ hr {
 ul li,
 ol li {
   margin-bottom: 0.5em;
+  font-size: $type-size-5;  /*dsaint31*/
 }
 
 li ul,
 li ol {
   margin-top: 0.5em;
+  font-size: $type-size-5; /*dsaint31*/
 }
 
 /*
