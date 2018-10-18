@@ -9,7 +9,7 @@ main:
   - title: "About"
     url: "/about/"
   - title: "Publications"
-    url: /publications/
+    url: "/publications/"
     #url: https://mmistakes.github.io/minimal-mistakes/about/
   # - title: "Sample Posts"
   #   url: /year-archive/

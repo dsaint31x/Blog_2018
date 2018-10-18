@@ -2,7 +2,6 @@
 permalink: /publications/
 title: "Publications"
 excerpt: "publications.md"
-# img: "assets/img/portfolio/publication.png"
 last_modified_at: 2018-10-18 17:13:00
 toc: true
 tags: [publication]
