@@ -18,18 +18,21 @@ Department of Biomedical Engineering, Gachon University
 ## Contact
 
 Phone : +82 (0)32 820 4314
-Fax : +82 (0)32 820 4314
 Email : [dsaint31@bme.gachon.ac.kr](dsaint31@bme.gachon.ac.kr) / [dsaint31@gmail.com](dsaint31@gmail.com)
+
+## Other sites
+BME, Gachon Univ : [http://bme.gachon.ac.kr/](http://bme.gachon.ac.kr)
+Official Home : [http://professor.gachon.ac.kr/main/main.jsp?Forum_seq=140666](http://professor.gachon.ac.kr/main/main.jsp?Forum_seq=140666)
 
 ## Education
 
-**2011.8.26** Ph.D. in Department of Medical Science, Gachon University, Korea
-* Thesis title : Implementation of the First Brain Dedicated UHF PET-MRI Fusion Imaging System and Its Applications
+* **2011.8.26** Ph.D. in Department of Medical Science, Gachon University, Korea
+  * Thesis title : Implementation of the First Brain Dedicated UHF PET-MRI Fusion Imaging System and Its Applications
   * Advisor : Zang-Hee Cho
-**2008.2.1** M.S. in Department of Medical Science, Gachon University, Korea
-* Thesis title : New Real-Time Reconstruction System for Positron Emission Tomography (PET) Study
+* **2008.2.1** M.S. in Department of Medical Science, Gachon University, Korea
+  * Thesis title : New Real-Time Reconstruction System for Positron Emission Tomography (PET) Study
   * Advisor : Zang-Hee Cho
-**2001.2.16**	B.E. in Department of  Telecommunication & Information Engineering, Korea Aerospace University, Korea
+* **2001.2.16**	B.E. in Department of  Telecommunication & Information Engineering, Korea Aerospace University, Korea
  
 ## RESEARCH EXPERIENCES
 
