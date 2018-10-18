@@ -1,21 +1,11 @@
 ---
 title:  "[Docker] Hyper-V 로 Docker사용시 BSOD 발생(Windows 10)"
-author: dsaint31
-
 last_modified_at: 2018-10-17
-categories: 
-  - Docker
+categories: Docker
 use_math: false
-tags: 
-  - BSOD 
-  - Hyper-V
-  - Windows10
-  - vmswitch.sys
+tags: BSOD Hyper-V Windows10 vmswitch.sys
 toc: true
 ---
-
-# The problem of Docker with Hyper-V
-@(Linux)
 
 ### Environment
 
