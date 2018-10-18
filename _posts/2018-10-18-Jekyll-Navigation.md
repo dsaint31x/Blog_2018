@@ -24,27 +24,6 @@ Jekyll이 아직도 어색한 부분이 큼. 사실 markdown문법을 익숙해�
 
 간단히 요약하면 다음과 같음.
 
-
-
-3. 년단위 post를 보여주는 `year-archive.html`을 추가함. 
-
-```
----
-layout: archive
-permalink: /year-archive/
-titile: "Posts by Year"
-author_profile: true
----
-
-{% assign postsByYear = site.posts | group_by_exp:"post", "post.date | date: '%Y'"  %}
-{% for year in postsByYear %}
-  <h2 id="{{ year.name | slugify }}" class="archive__subtitle">{{ year.name }}</h2>
-  {% for post in year.items %}
-    {% include archive-single.html %}
-  {% endfor %}
-{% endfor %}
-```
-
 4. 이후 `git add`와 `git commit`을 수행해주고, `git push`로 마무리.
 
 > *  `year-archive.html`은 꽤 보기 불편하다. 좀더 개선된 방식이 있는지 뒤져봐야할 듯.
