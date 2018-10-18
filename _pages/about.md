@@ -10,10 +10,9 @@ tags: [About]
 
 ## Address 
 
-Department of Biomedical Engineering
-Gachon University
-191 Hambakmoe-ro, Yeonsu-gu, Incheon 406-799
-South Korea
+Department of Biomedical Engineering, Gachon University
+
+191 Hambakmoe-ro, Yeonsu-gu, Incheon 406-799, South Korea
 
 
 ## Contact
@@ -36,16 +35,22 @@ Email : [dsaint31@bme.gachon.ac.kr](dsaint31@bme.gachon.ac.kr) / [dsaint31@gmail
 
 **2016 - Current**
 * Chair of Computing & Information Center
+
 **2014 - Current**	
 * Assistant Professor in Department of Biomedical Engineering, College of Health Sciences, Gachon University, Korea
+
 **2016 - 2017**	
 * Adjunct Assistant Professor in Medical Device R&D Center, Medical Device Convergence Center, Gil Hospital, Korea
+
 **2011 - 2013**	
 * Researcher (Post Doc.) in Neuroscience Research Institute, Gachon University, Korea
+
 **2005 - 2011**	
 * Researcher in Neuroscience Research Institute, Gachon University, Korea
+
 **2002 - 2004**	
 * Senior Researcher in Research and Development Team, Nextware Corp., Korea
+
 **2000 - 2001**	
 * Researcher in Research and Development Team, Nextware Corp., Korea
 
