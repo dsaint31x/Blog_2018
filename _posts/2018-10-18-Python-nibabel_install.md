@@ -1,5 +1,5 @@
 ---
-title:  "[Python] Conversion Analyze file to NIfTI file"
+title: "[Python] Conversion Analyze file to NIfTI file"
 author: dsaint31
 
 last_modified_at: 2018-10-18  20:33:59
@@ -10,6 +10,7 @@ tags:
   - NIfTI
   - Analyze
 toc: true
+
 ---
 
 # NIfTI (Neuroimaging Informations Technology Initiative)
