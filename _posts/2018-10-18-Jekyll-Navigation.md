@@ -74,21 +74,19 @@ tags: [publication]
 
 **year-archive.html 파일**
 
-```
----
+<div class="highlight highlight-text-html-liquid"><pre>---
 layout: archive
 permalink: /year-archive/
-titile: "Posts by Year"
+title: "Posts by Year"
 author_profile: true
 ---
-{% assign postsByYear = site.posts | group_by_exp:"post", "post.date | date: '%Y'"  %}
-{% for year in postsByYear %}
-  <h2 id="{{ year.name | slugify }}" class="archive__subtitle">{{ year.name }}</h2>
-  {% for post in year.items %}
-    {% include archive-single.html %}
-  {% endfor %}
-{% endfor %}
-```
+<span class="pl-s1">{% assign postsByYear = site.posts | group_by_exp:"post", "post.date | date: '%Y'"  %}</span>
+<span class="pl-s1">{% for year in postsByYear %}</span>
+  &lt;<span class="pl-ent">h2</span> <span class="pl-e">id</span>=<span class="pl-s"><span class="pl-pds">"</span>{{ year.name | slugify }}<span class="pl-pds">"</span></span> <span class="pl-e">class</span>=<span class="pl-s"><span class="pl-pds">"</span>archive__subtitle<span class="pl-pds">"</span></span>&gt;<span class="pl-s1">{{ year.name }}</span>&lt;/<span class="pl-ent">h2</span>&gt;
+  <span class="pl-s1">{% for post in year.items %}</span>
+    <span class="pl-s1">{% include archive-single.html %}</span>
+  <span class="pl-s1">{% endfor %}</span>
+<span class="pl-s1">{% endfor %}</span></pre></div>
 
 4. 이후 `git add`와 `git commit`을 수행해주고, `git push`로 마무리.
 
