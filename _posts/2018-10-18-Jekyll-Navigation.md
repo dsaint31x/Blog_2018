@@ -73,22 +73,7 @@ tags: [publication]
 3. 년단위 post를 보여주는 `year-archive.html`을 추가함. 
 
 **year-archive.html 파일**
-```
----
-layout: archive
-permalink: /year-archive/
-titile: "Posts by Year"
-author_profile: true
----
 
-{% assign postsByYear = site.posts | group_by_exp:"post", "post.date | date: '%Y'"  %}
-{% for year in postsByYear %}
-  <h2 id="{{ year.name | slugify }}" class="archive__subtitle">{{ year.name }}</h2>
-  {% for post in year.items %}
-    {% include archive-single.html %}
-  {% endfor %}
-{% endfor %}
-```
 
 4. 이후 `git add`와 `git commit`을 수행해주고, `git push`로 마무리.
 
