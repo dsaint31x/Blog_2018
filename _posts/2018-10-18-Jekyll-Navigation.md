@@ -74,7 +74,7 @@ tags: [publication]
 
 **year-archive.html 파일**
 
-```liquid
+```
 ---
 layout: archive
 permalink: /year-archive/
