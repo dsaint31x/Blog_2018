@@ -1,4 +1,5 @@
 ---
+published: true
 title: "[Jekyll] 상단 Navigation에 메뉴 추가하기"
 
 author: dsaint31
@@ -23,6 +24,24 @@ Jekyll이 아직도 어색한 부분이 큼. 사실 markdown문법을 익숙해�
 우선, 목표로 한 건 publication관련 정보와 개인 정보를 추가 및, 연도별 post정리된 archive 페이지를 추가하기로 하고 manual에서 찾기 시작.
 
 간단히 요약하면 다음과 같음.
+
+1. `_data` 디렉토리의 `navigation.yml`을 다음과 같이 수정한다.
+
+```
+# main links
+main:
+  - title: "Quick-Start Guide"
+    url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
+  - title: "Category"
+    url: "/categories/"
+  - title: "Archive"
+    url: /year-archive/
+  - title: "About"
+    url: "/about/"
+  - title: "Publications"
+    url: "/publications/"
+```
+
 
 4. 이후 `git add`와 `git commit`을 수행해주고, `git push`로 마무리.
 
