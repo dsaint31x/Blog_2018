@@ -1,10 +1,9 @@
-﻿---
+---
 title: "[생나] 고통의 정도에 따른 동물실험의 분류"
-author: dsaint31
-
-last_modified_at: 2018-10-18 14:00:00
 categories: 
   - 생명과나눔
+last_modified_at: 2018-10-18 14:00:00
+author: dsaint31
 use_math: false
 tags: 
   - 동물실험
@@ -79,3 +78,5 @@ toc: true
 ### Reference
 
 [한양대학교 동물실험 범주 정의 및 고통 정도에 따른 동물실험 분류](http://larc.hanyang.ac.kr/down/%ED%95%9C%EC%96%91%EB%8C%80%ED%95%99%EA%B5%90%20%EB%8F%99%EB%AC%BC%EC%8B%A4%ED%97%98%20%EA%B3%A0%ED%86%B5%EB%93%B1%EA%B8%89%EA%B8%B0%EC%A4%80-20140930.pdf)
+
+---
