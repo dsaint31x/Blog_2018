@@ -63,7 +63,8 @@
 
 .page__lead {
   font-family: $global-font-family;
-  font-size: $type-size-4; 
+  /*dsaint31 font-size: $type-size-4; */
+  font-size: $type-size-5;
 }
 
 .page__content {
@@ -75,7 +76,7 @@
   p,
   li,
   dl {
-    font-size: 1em;
+    font-size: 0.8em; /*1em;*/ /*dsaint31*/
   }
 
   /* paragraph indents */
