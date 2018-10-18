@@ -72,7 +72,7 @@ tags: [publication]
 
 3. 년단위 post를 보여주는 `year-archive.html`을 추가함. 
 
-**year-archive.html 파일**
+[**year-archive.html 파일 링크**](https://github.com/dsaint31x/Blog_2018/blob/gh-pages/_pages/year-archive.html)
 
 
 4. 이후 `git add`와 `git commit`을 수행해주고, `git push`로 마무리.
