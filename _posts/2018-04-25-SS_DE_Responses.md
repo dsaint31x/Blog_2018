@@ -1,15 +1,10 @@
 ---
-layout: post
-title:  "[SS] zero-state/zero-input/natural/forced responses"
+title:  "[SS] Differential Equation and Responses (zero-input, zero-state, natural, forced)"
 date:   2018-04-25 21:43:59
-author: dsaint31
 categories: Signals_and_Systems
 use_math: true
 tags: Laplace
 ---
-
-# Differential Equation and Responses (zero-input, zero-state, natural, forced)
-@(Signal and System)
 
 다음 미분방정식 의 시스템이 있다고 하자.
 
