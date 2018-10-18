@@ -1,16 +1,11 @@
 ---
 title: "[Python] Conversion Analyze file to NIfTI file"
-author: dsaint31
-
-categories: 
-  - Python
+categories: Python
 last_modified_at: 2018-10-18 13:00:00
 use_math: false
-tags: 
-  - NIfTI
-  - Analyze
+tags: NIfTI Analyze
+author: dsaint31
 toc: true
-
 ---
 
 # NIfTI (Neuroimaging Informations Technology Initiative)
