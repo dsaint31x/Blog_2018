@@ -1,10 +1,10 @@
 ---
-title:  "[Python] Conversion Analyze file to NIfTI file"
+title: "[Python] Conversion Analyze file to NIfTI file"
 author: dsaint31
 
-last_modified_at: 2018-10-18  20:33:59
 categories: 
   - Python
+last_modified_at: 2018-10-18
 use_math: false
 tags: 
   - NIfTI
