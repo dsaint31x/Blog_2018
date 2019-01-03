@@ -1,5 +1,5 @@
 ---
-title: "[linux] vim: Unable to copy & paste b/w terminal on the Debian9 (Stretch)"
+title: "[linux] vim: Unable to copy & paste b/w terminal on the Debian9 (Stretch)
 categories: linux
 last_modified_at: 2019-01-03 22:51:00
 use_math: false
@@ -15,13 +15,13 @@ vim으로 텍스트 파일 등을 열고 마우스로 특정 영역을 선택후
 
 다음을 실행.
 
-```bash
+```
 sudo touch /etc/vim/vimrc.local
 ```
 
 그리고 나서, 해당 파일을 아래와 같이 작성함.
 
-```bash
+```
 " This file loads the default vim options at the beginning and prevents
 " that they are being loaded again later. All other options that will be set,
 " are added, or overwrite the default settings. Add as many options as you
