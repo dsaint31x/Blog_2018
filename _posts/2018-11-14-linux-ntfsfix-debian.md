@@ -3,7 +3,7 @@ title: "[linux] How to fix a corrupted NTFS filesystem which commonly can be mou
 categories: linux
 last_modified_at: 2018-11-14 09:00:00
 use_math: false
-tags: NTFS,Debian,ntfsfix
+tags: NTFS Debian ntfsfix
 toc: true
 ---
 
