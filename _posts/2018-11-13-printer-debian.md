@@ -3,7 +3,7 @@ title: "[linux] Install Network Printer on Debian9 (Stretch)"
 categories: linux
 last_modified_at: 2018-11-18 23:00:00
 use_math: false
-tags: SL-M3870FW,Debian9,CUPS
+tags: SL-M3870FW Debian9 CUPS
 toc: true
 ---
 
