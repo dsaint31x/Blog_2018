@@ -3,7 +3,7 @@ title: [linux] vim: Unable to copy & paste b/w terminal on the Debian9 (Stretch)
 categories: linux
 last_modified_at: 2019-01-03 22:51:00
 use_math: false
-tags: Debian vim
+tags: Debian;vim
 toc: true
 ---
 
