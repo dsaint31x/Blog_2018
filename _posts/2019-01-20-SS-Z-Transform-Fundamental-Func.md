@@ -1,4 +1,11 @@
----                                                                                                                     title: "[SS] z-Transform : Fundamental Functions"                                      categories: Signals_and_Systems                                                                                                    last_modified_at: 2019-01-09 18:51:00                                                                                   use_math: true                                                                                                         tags: z-transform impulse ramp                                                                                                        toc: true                                                                                                               ---    
+---
+title: "[SS] z-Transform : Fundamental Functions"
+categories: Signals_and_Systems
+last_modified_at: 2019-01-09 18:51:00
+use_math: true
+tags: z-transform impulse ramp
+toc: true
+---
 
 # [SS] z-Transform : Fundamental Functions
 @(Signal and System)[z-transform, ss]
