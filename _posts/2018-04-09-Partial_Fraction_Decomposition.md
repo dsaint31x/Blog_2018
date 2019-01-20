@@ -1,14 +1,13 @@
 ---
-layout: post
-title:  "Partial fraction decomposition"
-date:   2018-04-09 23:47:59
-author: dsaint31
+title:  "[SS] Partial Fraction Decomposition"
 categories: Signals_and_Systems
+last_modified_at: 2018-04-09 23:47:59
+author: dsaint31
 use_math: true
-tags: Partial_Fraction_Decomposition
+tags: Partial_Fraction_Decomposition ss
+toc: true
 ---
-# Partial fraction decomposition (부분분수분해)
-
+# 부분분수분해
 @(Signal and System)
 
 ### Distinct Real Poles (Non-repeated linear factors)
