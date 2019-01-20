@@ -13,11 +13,13 @@ toc: true
 ## impulse function
 
 다음과 같은 impulse function에 대한 z-Transform 구하기.
+
 $$
 x[n]=\delta[n]
 $$
 
 sol.
+
 $$
 \begin{align*}
 X(z)&=\sum_{n=0}^{\infty}\delta[n]z^{-n} \\
@@ -27,11 +29,13 @@ X(z)&=\sum_{n=0}^{\infty}\delta[n]z^{-n} \\
 $$
 
 시간축에서 $n_0$ shift가 있을 경우.
+
 $$
 x[n]=\delta[n-n_0]
 $$
 
 sol.
+
 $$
 \begin{align*}
 X(z)&=\sum_{n=0}^{\infty}\delta[n-n_0]z^{-n} \\
@@ -43,11 +47,13 @@ $$
 ## unit step funtion
 
 다음과 같은 unit step function의 경우,
+
 $$
 x[n]=u[n] 
 $$
 
 sol.
+
 $$
 \begin{align*}
 X(z)&=\sum_{n=0}^{\infty}u[n]z^{-n} \\
@@ -63,11 +69,13 @@ $$
 ## ramp function
 
 다음과 같은 ramp function의 경우,
+
 $$
 x[n]=nu[n]
 $$  
 
 sol.
+
 $$
 \begin{align*}
 X(z)&=0+1z^{-1}+2z^{-2}+3z^{-3}\cdots+nz^{-n}+\cdots\\
@@ -88,11 +96,13 @@ $$
 ## exponential function.
 
 다음과 같은 expontial function의 경우,
+
 $$
 x[n]=a^n u[n] 
 $$
 
-so.
+sol.
+
 $$
 \begin{align*}
 X(z)&=\sum_{n=0}^{\infty}a^nz^{-n} \\
@@ -113,7 +123,9 @@ x[n] =\cos (n\Omega) u[n] \\
 $$
 
 sol.
+
 오일러 공식을 이용하여 $x[n]$을 치환.
+
 $$
 \begin{align*}
 x[n] &=\cos (n\Omega) u[n] \\
@@ -122,6 +134,7 @@ x[n] &=\cos (n\Omega) u[n] \\
 $$
 
 이를 이용하여 z-transform
+
 $$
 \begin{align*}
 X(z)&=\sum_{n=0}^{\infty} \left [ \left ( \frac{e^{jn\Omega}+e^{-jn\Omega}}{2} \right ) z^{-n} \right ]\\
@@ -133,10 +146,13 @@ X(z)&=\sum_{n=0}^{\infty} \left [ \left ( \frac{e^{jn\Omega}+e^{-jn\Omega}}{2} \
 $$
 
 다음과 같은 $\sin$의 경우에는
+
 $$
 x[n]=\sin (n\Omega) u[n]
 $$
+
 같은 방법으로 풀면 되고, 답은 다음과 같음.
+
 $$
 \begin{align*}
 X(z)=\frac{z\sin\Omega}{z^2-2z\cos\Omega+1}, |z|>1
