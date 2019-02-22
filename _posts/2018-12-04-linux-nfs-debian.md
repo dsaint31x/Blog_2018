@@ -3,7 +3,7 @@ title: "[linux] How to use nfs with synology on the Debian9 (Stretch)"
 categories: linux
 last_modified_at: 2018-12-04 09:00:00
 use_math: false
-tags: NFS,Debian,mount
+tags: NFS Debian mount
 toc: true
 ---
 
