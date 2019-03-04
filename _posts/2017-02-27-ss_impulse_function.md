@@ -38,3 +38,5 @@ $$
 
 위의 조건을 만족하는 함수를 impulse function이라고 하므로, 아래의 함수 $\delta(t)$가 바로 impulse function임.
 
+
+$$\delta \left( t \right)=\lim _{ \varepsilon \rightarrow 0 }{ { \delta }_{ \varepsilon }\left( t \right) }$$
