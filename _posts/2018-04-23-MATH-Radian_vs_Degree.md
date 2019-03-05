@@ -59,7 +59,7 @@ $$
 
 ![radian vs degree](https://docs.google.com/drawings/d/e/2PACX-1vRucnWqNHi9yEc2s2G-HZ6KHH9h8B7sZ7M2sLox5uAwyG4MnxZFyegnR2V35zHqMGnrzfBZt0Mp7a1w/pub?w=500&h=357)
 
-위의 그림[^1]에서 넓이를 살펴보면, 푸른색 삼각형이 가장 작고, 녹색의 부채꼴이 그다음으로 작고, 노란색의 삼각형이 가장 넓다.
+위의 그림[^1] 에서 넓이를 살펴보면, 푸른색 삼각형이 가장 작고, 녹색의 부채꼴이 그다음으로 작고, 노란색의 삼각형이 가장 넓다.
 
 ##### 60분법 (degree) 이용시
 
@@ -109,4 +109,7 @@ $$\frac{d}{dx} \sin x = \cos x$$
 
 ### References
 
-[1]: [공돌이의 수학정리노트](https://wikidocs.net/4094) : 공돌이의 수학정리노트를 이 글 작성 전에 읽었다면 아마 링크만 걸어두고 끝이었을 정도로 잘 설명이 되어있음. 
+* [공돌이의 수학정리노트](https://wikidocs.net/4094) 
+
+[^1]: 공돌이의 수학정리노트 
+
