@@ -1,15 +1,18 @@
 ---
 layout: post
 title:  "[Math] Radian (Circular measure, 호도법) "
-date:   2018-04-23 18:33:59
+last_modified_at: 2018-04-23 18:33:59
 author: dsaint31
-categories: Physics
+categories: 
+ - Mathematics
 use_math: true
-tags: radian
+tags: 
+ - radian
+ - degree
 ---
 
-# Degrees vs. Radians
-@(Mathematics)[math, mathematics, trigonometric, , Mathematics]
+# [Math] Degrees vs. Radians
+@(Mathematics)[math, mathematics, trigonometric, Mathematics]
 
 ### 60분법 (degree)
 
@@ -19,14 +22,16 @@ tags: radian
 
 원(흔히 단위원)에서 원주와 반지름의 길이가 같아질 때의 θ를 1 radian이라고 함.
 
-$$  \theta = \frac{l_{arc}}{l_{radian}} $$
+$$  
+\theta = \frac{l_{arc}}{l_{radian}} 
+$$
+
 ![radian](https://docs.google.com/drawings/d/e/2PACX-1vQcUiUPcrTIEeWFE59QPqZO240PVaYSRZGBsB9B_RNMhmP5NrT5H6JWxTIaXNb0D0Y-F8K8FhCUREka/pub?w=142&h=1400)
 
 > 호도법 : 호의 길이를 이용하여 각도를 측정한다는 한자용어.
 
 ### Degrees vs. Radian (정의 혹은 측정의 측면)
 
-![degrees vs. radian]
 * Observer(관찰자)가 얼마나 고개를 들어 올리는가? : degree
 * Mover(이동자)가 얼마나 이동을 해야 하는 각도인가? : radian
 
@@ -39,13 +44,15 @@ $$  \theta = \frac{l_{arc}}{l_{radian}} $$
 
 sin 함수의 미분은 다음과 같음.
 
-$$ \begin{align*}
+$$ 
+\begin{align*}
 \frac{d}{dx} \sin x &= \lim_{\Delta x \rightarrow 0} \frac {\sin (x+\Delta x) - \sin x}{\Delta x}\\
 \quad &= \lim_{\Delta x \rightarrow 0} \frac {\sin x \cos \Delta x +\cos x \sin \Delta x - \sin x}{\Delta x} \\
 \quad &= \lim_{\Delta x \rightarrow 0} \frac {\sin x  +\cos x \sin \Delta x - \sin x}{\Delta x} \\
 \quad &= \lim_{\Delta x \rightarrow 0} \frac {\cos x \sin \Delta x}{\Delta x} \\
 \quad &= \cos x \lim_{\Delta x \rightarrow 0} \frac { \sin \Delta x}{\Delta x} \\
-\end{align*}$$
+\end{align*}
+$$
 
 여기서 $\lim_{\Delta x \rightarrow 0} \frac { \sin \Delta x}{\Delta x}$ 의 값 유도 (조임정리) 를 해보면 x가 degree인 경우, 상수항을 곱해줘야 하고, radian인 경우엔 1로 되어 상수항을 무시할 수 있음을 보일 수 있음.
 
@@ -74,7 +81,8 @@ $$\frac{d}{dx} \sin x = \frac{\pi}{180^\circ} \cos x$$
 즉, 상수를 곱해주는 처리가 필요함.
 
 ##### Radian 이용시 
- $$
+
+$$
 \frac{1}{2} \times 1 \times \sin \theta \le \pi \times 1^2 \times \frac{\theta}{2\pi} \le \frac{1}{2} \times 1 \times \tan \theta \\
 \frac{\sin \theta}{2} \le \pi \times \frac{\theta}{2\pi} \le \frac{\tan \theta}{2} \\
 \frac{\sin \theta}{2} \le \frac{\theta}{2} \le \frac{\tan \theta}{2} \\ 
@@ -91,6 +99,7 @@ $$\frac{d}{dx} \sin x = \cos x$$
 즉, 60분법에서의 상수 $\frac{\pi}{180^\circ}$를 곱해주는 처리가 필요없음.
 
 --------
+
 ### References
 
 [^공돌이의 수학정리노트]: [공돌이의 수학정리노트](https://wikidocs.net/4094) : 공돌이의 수학정리노트를 이 글 작성 전에 읽었다면 아마 링크만 걸어두고 끝이었을 정도로 잘 설명이 되어있음. 
