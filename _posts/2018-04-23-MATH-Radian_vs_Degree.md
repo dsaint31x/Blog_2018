@@ -65,13 +65,17 @@ $$
 ##### 60분법 (degree) 이용시
 
 $$
-\frac{1}{2} \times 1 \times \sin \theta^\circ \le \pi \times 1^2 \times \frac{\theta^\circ}{360^\circ} \le \frac{1}{2} \times 1 \times \tan \theta^\circ \\
-\frac{\sin \theta^\circ}{2} \le \pi \times \frac{\theta^\circ}{360^\circ} \le \frac{\tan \theta^\circ}{2} \\
-\frac{360^\circ}{\pi} \frac{\sin \theta^\circ}{2} \le \theta^\circ \le \frac{360^\circ}{\pi} \frac{\tan \theta^\circ}{2} \\ 
-\frac{180^\circ}{\pi} \sin \theta^\circ \le \theta^\circ \le \frac{180^\circ}{\pi} \tan \theta^\circ \\
-\frac{180^\circ}{\pi}  \le \frac{\theta^\circ}{\sin \theta^\circ} \le \frac{180^\circ}{\pi} \frac{1}{\cos \theta^\circ} \\
-\frac{\pi}{180^\circ}  \ge \frac{\sin \theta^\circ}{\theta^\circ} \ge \frac{\pi \cos \theta^\circ}{180^\circ} \\
-\lim_{\theta^\circ\rightarrow0^\circ}\frac{\sin \theta^\circ}{\theta^\circ}=\lim_{\theta^\circ\rightarrow0^\circ}\frac{\pi \cos \theta^\circ}{180^\circ}=\frac{\pi}{180^\circ}
+\matrix{
+\frac{1}{2} \times 1 \times \sin \theta^\circ &\le& \pi \times 1^2 \times \frac{\theta^\circ}{360^\circ} &\le& \frac{1}{2} \times 1 \times \tan \theta^\circ \\
+\frac{\sin \theta^\circ}{2} &\le& \pi \times \frac{\theta^\circ}{360^\circ} &\le& \frac{\tan \theta^\circ}{2} \\
+\frac{360^\circ}{\pi} \frac{\sin \theta^\circ}{2} &\le& \theta^\circ &\le& \frac{360^\circ}{\pi} \frac{\tan \theta^\circ}{2} \\ 
+\frac{180^\circ}{\pi} \sin \theta^\circ &\le& \theta^\circ &\le& \frac{180^\circ}{\pi} \tan \theta^\circ \\
+\frac{180^\circ}{\pi}  &\le& \frac{\theta^\circ}{\sin \theta^\circ} &\le& \frac{180^\circ}{\pi} \frac{1}{\cos \theta^\circ} \\
+\frac{\pi}{180^\circ}  &\ge& \frac{\sin \theta^\circ}{\theta^\circ} &\ge& \frac{\pi \cos \theta^\circ}{180^\circ} \\
+}
+\\
+\therefore \lim_{\theta^\circ\rightarrow0^\circ}\frac{\sin \theta^\circ}
+{\theta^\circ}=\lim_{\theta^\circ\rightarrow0^\circ}\frac{\pi \cos \theta^\circ}{180^\circ}=\frac{\pi}{180^\circ}
 $$ 
 
 60분법을 사용할 경우, $\sin x$의 미분에 위 결과를 대입하면 다음과 같음.
@@ -83,12 +87,16 @@ $$\frac{d}{dx} \sin x = \frac{\pi}{180^\circ} \cos x$$
 ##### Radian 이용시 
 
 $$
-\frac{1}{2} \times 1 \times \sin \theta \le \pi \times 1^2 \times \frac{\theta}{2\pi} \le \frac{1}{2} \times 1 \times \tan \theta \\
-\frac{\sin \theta}{2} \le \pi \times \frac{\theta}{2\pi} \le \frac{\tan \theta}{2} \\
-\frac{\sin \theta}{2} \le \frac{\theta}{2} \le \frac{\tan \theta}{2} \\ 
-\sin \theta \le \theta \le \tan \theta \\ 
-1  \le \frac{\theta}{\sin \theta} \le  \frac{1}{\cos \theta} \\
-1  \ge \frac{\sin \theta}{\theta} \ge \cos \theta \\
+\matrix{
+\frac{1}{2} \times 1 \times \sin \theta &\le& \pi \times 1^2 \times \frac{\theta}{2\pi} &\le& \frac{1}{2} \times 1 \times \tan \theta \\
+\frac{\sin \theta}{2} &\le& \pi \times \frac{\theta}{2\pi} &\le& \frac{\tan \theta}{2} \\
+\frac{\sin \theta}{2} &\le& \frac{\theta}{2} &\le& \frac{\tan \theta}{2} \\ 
+\sin \theta &\le& \theta &\le& \tan \theta \\ 
+1  &\le& \frac{\theta}{\sin \theta} &\le&  \frac{1}{\cos \theta} \\
+1  &\ge& \frac{\sin \theta}{\theta} &\ge& \cos \theta 
+}
+\\
+\therefore 
 \lim_{\theta\rightarrow0}\frac{\sin \theta}{\theta}=\lim_{\theta\rightarrow0} \cos \theta =1
 $$
 
