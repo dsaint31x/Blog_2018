@@ -30,7 +30,9 @@ The **mean**, **autocovariance**, and **autocorrelation** functions summarize so
 $$
 X(t,\zeta); t\in I, \zeta\in S \\
 $$
+
 where,
+
 $$
 \begin{align*}
 &\quad S \text{ is sample space.} \\
@@ -63,7 +65,7 @@ $$
 	* 하지만, 결과값이 어떤 통계적 규칙성(or Probability Distribution)을 따름(예 : 주사위를 던진 결과값) 
 * Process
 	* 시간을 고려시 **Process(과정)** 이라고 부름
-	* 시간을 고려하지 않을시 **event(사건) **을 사용.
+	* 시간을 고려하지 않을시 **event(사건)**을 사용.
 	* Process란 시간에 따라, 일어나는 확률적 현상을 지칭.
 * Random Process (or Stochastic Process)
 	* **시간**별로 표시된(혹은 순서를 부여할 수 있는) 다수의 random variable의 집합(혹은 수열)
