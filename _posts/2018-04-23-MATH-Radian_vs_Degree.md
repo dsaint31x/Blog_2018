@@ -1,5 +1,4 @@
 ---
-layout: post
 title:  "[Math] Radian (Circular measure, 호도법) "
 last_modified_at: 2018-04-23 18:33:59
 author: dsaint31
