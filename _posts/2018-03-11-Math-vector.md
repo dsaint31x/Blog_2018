@@ -1,6 +1,6 @@
 ---
 title:  "[Math] 벡터 기본"
-last_modified_at: 2019-02-10
+last_modified_at: 2019-03-08
 author: dsaint31
 categories: 
   - Mathematics
