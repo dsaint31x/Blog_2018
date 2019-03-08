@@ -11,10 +11,10 @@ tags:
   - physics
   - vector
 ---
-/
+
 # [Math] Vector (1)
 @(Mathematics)[physics, vector]
-/
+
 ### scalar
 
 * 오직 크기만을 가지는 물리량
@@ -23,7 +23,7 @@ tags:
 
 * 크기와 방향을 가지는 물리량.
 * 다음 식은 3개의 component를 가지는 vector임.
-* $$ \vec { a } =\left< { a }_{ 1 },{ a }_{ 2 },{ a }_{ 3 } \right> $$
+* component로 표현 : $$\vec { a } =\left< { a }_{ 1 },{ a }_{ 2 },{ a }_{ 3 } \right>$$
 
 ### zero vector
 
@@ -42,7 +42,7 @@ $$
 \left\| \vec { a }  \right\| ={ \left\| \vec { a }  \right\|  }_{ 2 }={ \left( { a }_{ 1 }^{ 2 }+{ a }_{ 2 }^{ 2 }+{ a }_{ 3 }^{ 2 } \right)  }^{ \frac { 1 }{ 2 }  } 
 $$
 
-* 일반화된 P-norm은 다음과 같음.
+* 일반화된 L*P*-norm은 다음과 같음.
 
 $$ 
 { \left\| \vec { a }  \right\|  }_{ P }=\left\{ \sum _{ i=1 }^{ n }{ { \left| { a }_{ i } \right|  }^{ P } }  \right\} ^{ \frac { 1 }{ P }  }
@@ -57,7 +57,7 @@ $$
 
 ### position vector (위치벡터)
 
-* 평면 $$ \text{R}^2 $에서 점 $$  P(a_1,a_2) $$에서 점 $$ Q(b_1,b_2)  $$방향의 벡터는 다음 그림과 같음.
+* 평면 $$ \text{R}^2 $$에서 점 $$P(a_1,a_2)$$에서 점 $$Q(b_1,b_2)$$방향의 벡터는 다음 그림과 같음.
 * ![Position vector](https://3.bp.blogspot.com/-vyRFxxak3hg/Vz1zF1XAqcI/AAAAAAAA_Yg/-oXZiEmQbSofBUWf8qP2J6FAm7hG3gRrwCLcB/s1600/%25EC%25BA%25A1%25EC%25B2%2598.PNG)
 * 여기서 $$\text{P}$$는 initial point(시작점,시점)이고, $$\text{Q}$$는 terminal point(종점)이라 함.
 * position vector는 일반적으로 initial point가 원점인 경우로서, 이 경우 terminal point $$\text{Q}$$의 position vector라고 불림.
@@ -86,7 +86,7 @@ $$
 
 ### Unit vector
 
-* $$\left\| \vec { a }  \right\| =1 $$인 $$\vec { a } $$를 **unit vector**라고 함..
+* $$\left\| \vec { a }  \right\| =1 $$인 $$\vec { a } $$를 **unit vector**라고 함.
 
 ### normalization
 
