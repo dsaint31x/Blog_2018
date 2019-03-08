@@ -1,17 +1,20 @@
 ---
-layout: post
-title:  "[Physics] 연습문제"
-date:   2018-03-11 14:47:59
+title: "[Physics] 연습문제"
+date: 2018-03-11 14:47:59
 author: dsaint31
-categories: Physics
+categories: 
+ - Physics
 use_math: true
-tags: physics
+tags: 
+ - physics
 ---
 
 # [Physics] 연습문제.
 @(Physics)[#Physics]
 
 아래 링크를 클릭하여 각 장의 연습문제를 푸세요.
+
+## 2019
 
 ## 2018
 * [20장 Sound](https://goo.gl/forms/izTnhxKXGAAUjnKw1)
