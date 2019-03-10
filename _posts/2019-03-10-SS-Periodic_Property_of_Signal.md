@@ -12,11 +12,11 @@ tags:
 # [SS] 신호의 주기성 예제풀이
 @(Signal and System)
 
-다음 함수의 주기는?
+### 다음 함수의 주기는?
 
 $$x\left( t \right) =\cos { (t) } +3{ e }^{ -j2t }$$
 
-Sol.
+#### Sol.
 
 $$
 \cos { (t) } \rightarrow { T }_{ 1 }=2\pi \\ 
@@ -29,13 +29,13 @@ $$
 
 ----
 
-다음 함수의 주기는?
+### 다음 함수의 주기는?
 
 $$
 x\left( t \right) ={ e }^{ j\frac { \pi t }{ 2 } }\cos { \left( \frac { \pi }{ 3 } t \right) } 
 $$
 
-Sol.
+#### Sol.
 
 $$
 \begin{eqnarray} 
@@ -51,13 +51,13 @@ $$
 
 ----
 
-$x(t)$가 주기함수일 때, 다음의 함수의 주기는 (비주기 함수일 수도 있음)?
+### $x(t)$가 주기함수일 때, 다음의 함수의 주기는 (비주기 함수일 수도 있음)?
 
 $$
 y\left( t \right) ={ e }^{ x\left( t \right) }
 $$
 
-Sol.
+#### Sol.
 
 $$
 { e }^{ x\left( t \right) }={ e }^{ x\left( t+T \right) }\\ y\left( t \right) =y\left( t+T \right) 
@@ -67,7 +67,7 @@ $$
 
 ----
 
-다음의 참/거짓을 고르시오.
+### 다음의 참/거짓을 고르시오.
 
 * 어떤 신호는 energy signal이면서 power signal일 수도 있다. [T/**F**]
 * deterministic signal은 시간에 따른 값의 변화를 정확히 예측할 수 있지만, 통계적 성질은 불규칙하다. [T/**F**]
