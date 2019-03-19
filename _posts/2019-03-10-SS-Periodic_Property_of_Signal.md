@@ -73,3 +73,72 @@ $$
 * deterministic signal은 시간에 따른 값의 변화를 정확히 예측할 수 있지만, 통계적 성질은 불규칙하다. [T/**F**]
 * 유한한 신호 값을 갖는 모든 주기 신호는 power signal이다. [**T**/F]
 * x(t)=3t<sup>2</sup> 은 energy signal도 power signal도 아니다. [**T**/F]
+
+### 다음 신호의 파형을 그려보라. 그리고 해당 신호가 Energy signal인지 Power signal인지 아니면 둘다 아닌지를 기재하라 (단, a는 임의의 real number임.).
+
+$$
+x(t)= e^{-at}u(t)
+$$
+
+#### Sol.
+
+i) if $a>0$
+
+$$
+\begin{align*}
+E & =\int^\infty_{-\infty} | e^{-at}u(t)|^2 dt \\
+ & = \int^\infty_0 e^{-2at} dt \\
+ & = \frac{-1}{2a} [e^{-2at}]^\infty_0 \\
+ & =\frac{1}{2a}
+\end{align*}
+$$
+
+$0<E <\infty$이므로 energy signal이 됨.
+
+
+
+ii) if $a=0$
+
+$$
+\begin{align*}
+E & = \int^\infty_0 e^{-2at} dt \\
+& = \int^\infty_0 1 dt \\ 
+P &=  \lim_{T\rightarrow \infty} \frac{1}{T} \int^\frac{T}{2}_0 e^{-2at} dt \\
+&=\lim_{T\rightarrow \infty} \frac{1}{T} \int^\frac{T}{2}_0 1 dt \\
+& =   \lim_{T\rightarrow \infty} \frac{1}{T} \left[t \right]^{\frac{T}{2}}_{0} \\
+& = \frac{1}{2}
+\end{align*}
+$$
+
+즉, power signal.
+
+iii) if $a<0$
+
+$$
+\begin{align*}
+E & = \int^\infty_0 e^{-2at} dt \\
+& = \infty \\
+P &=  \lim_{T\rightarrow \infty} \frac{1}{T} \int^\frac{T}{2}_0 e^{-2at} dt \\
+& =   \lim_{T\rightarrow \infty} \left[- \frac{e^{-2at}}{2aT} \right]^{\frac{T}{2}}_{0} \\
+& =   \lim_{T\rightarrow \infty} \frac{1-e^{-aT}}{2aT} \\
+& = \infty
+\end{align*}
+$$
+
+energy signal도 power signal도 아님.
+
+### 다음 적분을 구하시오.
+
+$$
+\int ^\infty _{-\infty} \exp(t-4)\delta(3t-12)dt
+$$
+
+#### Sol.
+
+$$
+\begin{align*}
+\int ^\infty _{-\infty} \exp(t-4)\delta(3t-12)dt &= \int ^\infty _{-\infty} \exp(t-4)\frac{1}{|3|}\delta(t-4)dt \\
+& = \left. \frac{1}{3}\exp(t-4)\right |_{t=4} \\
+&=\frac{1}{3}
+\end{align*}
+$$
