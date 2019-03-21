@@ -90,7 +90,7 @@ $$
 
 ### normalization
 
-* 방향은 유지하되 norm인 1인 unit vector로 만드는 것
+* 방향은 유지하되 norm이 1인 unit vector로 만드는 것
 
 $$ 
 \frac{1}{\left\| \vec { a }  \right\| }\vec { a }

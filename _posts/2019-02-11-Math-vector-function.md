@@ -35,6 +35,7 @@ $$ \vec{v} = \vec{v}(t) = P(t) \vec{i} + Q(t)\vec{j} + R(t)\vec{k} $$
 $$ \vec{v} = \vec{v}(t) = \text{v}(t) = \left< P(t), Q(t), R(t) \right> = P(t)\vec{i} +Q(t)\vec{j}+R(t)\vec{k} $$
 
 > **Scalar function**
+>
 > A scalar function is simply a function whose codomain(공역) is $\text{R}$. 
 > $ f=f(p_{amas})= f(x,y,z) $
 
@@ -78,7 +79,7 @@ $$
 \begin{align*}
 (u+v)' &= u'+v' \\
 (u \cdot v)' &=  u'\cdot v +u\cdot v' \\
-(u \times v) &= u' \times v + u \times v' \\
+(u \times v)' &= u' \times v + u \times v' \\
 (u v w)' &= (u' v w) + (u v' w) + (u v w')
 \end{align*}
 $$
@@ -127,6 +128,7 @@ $$ \vec{v} = \vec{q}+\vec{g}t = v(t) = \left< q_x+g_xt, q_y+g_yt,q_z+g_zt \right
 $$ \vec{v} = a \cos{t}\vec{i} + b \sin{t} \vec{j} =  \left< a \cos{t}, b \sin{t}\right>$$ 
 
 **sol.**
+
 $$
 \begin{align*}
 x(t) = a \cos{t}, &y(t) = b \sin{t} \\
@@ -136,9 +138,11 @@ x(t) = a \cos{t}, &y(t) = b \sin{t} \\
 1 &= \frac{x(t)^2}{a^2} + \frac{y^2(t)}{b^2} \\
 \end{align*}
 $$
+
 즉, **타원**의 방정식.
 
 만약, $a=b$ 라면,
+
 $$ 
 \begin{align*}
 1 &= \frac{x(t)^2}{a^2} + \frac{y^2(t)}{b^2} \\
@@ -146,6 +150,7 @@ $$
 x(t)^2+y(t)^2 &= a^2
 \end{align*}
 $$
+
 즉, **원**의 방정식.
 
 ---
@@ -182,7 +187,7 @@ $$
 \end{align*}
 $$
 
-* $\left\{\vec{T}(t)\right\}^2=1$ 를 $t$에 대해 미분하면 다음과 같음.
+* $\left\{ \vec{T}(t) \right\}^2 = 1$ 를 $t$에 대해 미분하면 다음과 같음.
 
 $$
 \begin{align*}
