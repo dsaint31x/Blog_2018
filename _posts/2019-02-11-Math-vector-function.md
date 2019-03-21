@@ -187,7 +187,7 @@ $$
 \end{align*}
 $$
 
-* $$\left\{\vec{T}(t)\right\}^2 = 1$$ 를 $t$에 대해 미분하면 다음과 같음.
+* 위 식에서 $\left\{\vec{T}(t)\right\}^2 = 1$ 를 $t$에 대해 미분하면 다음과 같음.
 
 $$
 \begin{align*}
