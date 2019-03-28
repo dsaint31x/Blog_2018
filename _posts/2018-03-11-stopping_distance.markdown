@@ -1,10 +1,12 @@
 ---
 title:  "[Physics] Stopping Distance"
-date:   2018-03-11 15:47:59
+last_modified_at:   2018-04-13 11:33:59
 author: dsaint31
-categories: Physics
+categories: 
+- Physics
 use_math: true
-tags: physics
+tags: 
+- physics
 ---
 
 # [Physics] 정지거리 계산에 사용되는 공식 유도.
