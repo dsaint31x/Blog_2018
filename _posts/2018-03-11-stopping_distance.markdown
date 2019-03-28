@@ -1,5 +1,4 @@
 ---
-layout: post
 title:  "[Physics] Stopping Distance"
 date:   2018-03-11 15:47:59
 author: dsaint31
