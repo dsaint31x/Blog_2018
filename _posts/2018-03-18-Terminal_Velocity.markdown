@@ -105,7 +105,7 @@ $$
 \quad &= \frac{mg}{k}
 \end{align*}$$
 
-![TerminalVelocity] (https://docs.google.com/drawings/d/e/2PACX-1vQZwrcJMQTyDuOfBK0DEnbBotYnWVGaJr5i01HwCOvYOm8ucrD4x58IFUHnTbqmLX9tXLHkY_f0sUlZ/pub?w=862&h=349)
+![TerminalVelocity](https://docs.google.com/drawings/d/e/2PACX-1vQZwrcJMQTyDuOfBK0DEnbBotYnWVGaJr5i01HwCOvYOm8ucrD4x58IFUHnTbqmLX9tXLHkY_f0sUlZ/pub?w=862&h=349)
 
 위의 Differential equation은 어떤 순간의 속도도 구해낼 수 있지만, 단지 Terminal velocity를 구하려면 힘의 평형을 이용하여 구할 수도 있음.
 
