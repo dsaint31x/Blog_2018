@@ -22,6 +22,7 @@ $$ \begin {align*}
 \end {align*} $$
 
 $\Omega_0+\Omega$를 $\Omega_{new}$로 치환하면, 크기가 1인 DC signal의 Fourier Transform이 됨.
+
 1에 대한 FT의 결과는 $2\pi \delta (\Omega) $이므로 위 식은 다음과 같이 됨.
 
 $$ \begin {align*}
