@@ -54,12 +54,14 @@ $$
 
 $e^{j\Omega_0 t}$ 의 FT은 $2\pi \delta(\Omega-\Omega_0)$이므로, 다음과 같이 된다.
 
+$$
 \begin{align*}
 F\left[ x(t) \right] &= \frac{1}{T} \left [ F\left[ 1\right] +F\left[ e^{j\Omega_o t} \right]+F\left[ e^{j2\Omega_o t} \right]+F\left[ e^{j3\Omega_o t} \right]+\cdots \right] \\
 &=\frac{1}{T}\displaystyle{\sum_{k=-\infty}^{\infty}}2\pi \delta(\Omega - k\Omega_0) \\
 &=\frac{2\pi}{T}\displaystyle{\sum_{k=-\infty}^{\infty}} \delta(\Omega - k\Omega_0) \\
 &=\Omega_0\displaystyle{\sum_{k=-\infty}^{\infty}} \delta(\Omega - k\Omega_0) \\
 \end{align*}
+$$
 
 결국, $T$ 간격으로 반복되는 Impulse train의 FT는 $\frac{2\pi}{T}=\Omega_0$로 반복되는 Impulse train이 된다.
 
