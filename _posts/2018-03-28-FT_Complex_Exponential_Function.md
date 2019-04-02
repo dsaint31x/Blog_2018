@@ -1,5 +1,4 @@
 ---
-layout: post
 title:  "Fourier Transform of Complex Exponential Function"
 date:   2018-03-28 12:47:59
 author: dsaint31
