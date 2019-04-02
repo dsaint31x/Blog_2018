@@ -63,3 +63,5 @@ $$ \vec{a}=<1,2,3> \\ \vec{b}=<4,0,1> $$
 2. $\vec{b}\times\vec{b}$
 3. $\vec{b}\times\vec{a}$
 
+### 답
+<script src="https://gist.github.com/dsaint31x/267f832eb929fc29ca984c0715d92fa5.js"></script>
