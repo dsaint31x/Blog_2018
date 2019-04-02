@@ -1,5 +1,4 @@
 ---
-layout: post
 title:  "Fourier Transform of Sinc"
 date:   2018-03-28 13:47:59
 author: dsaint31
