@@ -1,5 +1,4 @@
 ---
-layout: post
 title:  "Table : Fourier Transform"
 date:   2018-04-24 13:33:59
 author: dsaint31
