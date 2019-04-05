@@ -77,7 +77,7 @@ $$
 &=C_{2x}  \vec{i}+C_{2y}\vec{j} \\
 &=r_y\vec{j} \\
 \\
-\therefore \vec{r}(t) &= (v_0 t\cos \theta ) \vec{i}+(r_y+v_0 0\sin \theta -\frac{1}{2}g0^2)\vec{j}
+\therefore \vec{r}(t) &= (v_0 t\cos \theta ) \vec{i}+(r_y+v_0 t\sin \theta -\frac{1}{2}gt^2)\vec{j}
 \end{align*}
 $$
 
