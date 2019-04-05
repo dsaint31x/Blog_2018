@@ -37,7 +37,8 @@ $$ \vec{v} = \vec{v}(t) = \text{v}(t) = \left< P(t), Q(t), R(t) \right> = P(t)\v
 > **Scalar function**
 >
 > A scalar function is simply a function whose codomain(공역) is $\text{R}$. 
-> $ f=f(p_{amas})= f(x,y,z) $
+> $ f=f(p_{parameters})= f(x,y,z) = Scalar $
+> 함수의  Scalar로 주어짐.
 
 ---
 
