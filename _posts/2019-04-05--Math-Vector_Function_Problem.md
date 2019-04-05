@@ -1,6 +1,6 @@
 ---
 title:  "[Math] 벡터함수 (간단예제)"
-last_modified_at:   2019-02-25
+last_modified_at:   2019-04-23
 author: dsaint31
 categories: 
   - Mathematics
