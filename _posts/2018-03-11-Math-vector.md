@@ -119,7 +119,7 @@ $$
 \vec { a } \times \vec { b } &=\left( { \left\| \vec { a }  \right\|  }\left\| \vec { b }  \right\| \sin { \theta  }  \right) \vec { n }  \\
 \quad &= \begin{vmatrix} \vec {i} & \vec {j} & \vec {k} \\ a_1 & a_2 & a_3 \\ b_1 & b_2 & b_3\end{vmatrix} \\
 \quad &= \vec {i} \begin{vmatrix} a_2 & a_3 \\ b_2 & b_3 \end{vmatrix} + \vec {j} \begin{vmatrix} a_3 & a_1 \\ b_3 & b_1 \end{vmatrix} + \vec {k} \begin{vmatrix} a_1 & a_2 \\ b_1 & b_2 \end{vmatrix} \\
-\quad &= \vec{i}(a_2b_3-a3b_2)+\vec{j}(a_3b_1-a_1b_3)+\vec{k}(a_1b_2-a_2b_1)
+\quad &= \vec{i}(a_2b_3-a_3b_2)+\vec{j}(a_3b_1-a_1b_3)+\vec{k}(a_1b_2-a_2b_1)
 \end {align*}
 $$
 
