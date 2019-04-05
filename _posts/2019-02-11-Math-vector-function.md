@@ -63,8 +63,10 @@ Vector function $\vec{v} = \left< P(t), Q(t),R(t) \right>$ 가 $t=a$에서 연�
 
 Vector function $\vec{v}(t)$의 derivative(도함수)는 다음과 같이 정의됨.
 
+$\vec{v}(t)$는 tangent vector라고 불림.
+
 $$
-\vec{v}\prime(t) = \lim_{\Delta t\rightarrow 0} \frac{\vec{v}(t+\Delta t)-\vec{v}(t)}{h}
+\vec{v}\prime(t) = \lim_{\Delta t\rightarrow 0} \frac{\vec{v}(t+\Delta t)-\vec{v}(t)}{\Delta t}
 $$ 
 
 component function 을 이용하여 derivative of vector function을 구하는 건 다음과 같음.
