@@ -41,11 +41,9 @@ $$
 $$
 \begin{align*}
 &F\left[ 1+2\sin \omega_0 t +\cos \omega_1 t \right] \\
-&=\delta(\Omega)
+&=2₩pi \delta(\Omega)
 +2 \left\{ -j\pi \delta(\Omega -\omega_0) +j\pi \delta(\Omega+\omega_0) \right\}
-+\pi \delta(\Omega -\omega_0) +\pi \delta(\Omega+\omega_0) \\
-&=\delta(\Omega) + (-2j+1)\pi\delta(\Omega -\omega_0)
-+(2j+1)\pi\delta(\Omega +\omega_0)
++\pi \delta(\Omega -\omega_1) +\pi \delta(\Omega+\omega_1) \\
 \end{align*}
 $$
 
@@ -54,10 +52,8 @@ $$
 $$
 \begin{align*}
 &F\left[ 10+3\sin \omega_0 t +\cos \omega_1 t \right] \\
-&=10\delta(\Omega)
+&=20\pi\delta(\Omega)
 +3 \left\{ -j\pi \delta(\Omega -\omega_0) +j\pi \delta(\Omega+\omega_0) \right\}
-+\pi \delta(\Omega -\omega_0) +\pi \delta(\Omega+\omega_0) \\
-&=\delta(\Omega) + (-3j+1)\pi\delta(\Omega -\omega_0)
-+(3j+1)\pi\delta(\Omega +\omega_0)
++\pi \delta(\Omega -\omega_1) +\pi \delta(\Omega+\omega_1) 
 \end{align*}
 $$
