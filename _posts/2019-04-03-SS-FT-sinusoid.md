@@ -28,11 +28,11 @@ $$
 
 $$
 \begin{align*}
-FT[\cos \omega_0 t] & = \int_{-\infty}^{\infty} \cos \omega_0 t e^{-j\Omega t} dt \\
-&= \int_{-\infty}^{\infty} \frac{e^{j\omega_0 t}+e^{-j\omega_0 t}}{2} e^{-j\Omega t} dt \\
-&= \frac{1}{2} \left\{\int_{-\infty}^{\infty} e^{j\omega_0 t} e^{-j\Omega t} dt + \int_{-\infty}^{\infty} e^{-j\omega_0 t} e^{-j\Omega t} dt \right\}\\
-&= \frac{1}{2}\left\{ 2\pi \delta(\Omega -\omega_0)+ 2\pi \delta(\Omega+\omega_0)\right\}\\
-&= \pi \delta(\Omega -\omega_0) +\pi \delta(\Omega+\omega_0)
+FT[\cos \omega_1 t] & = \int_{-\infty}^{\infty} \cos \omega_1 t e^{-j\Omega t} dt \\
+&= \int_{-\infty}^{\infty} \frac{e^{j\omega_1 t}+e^{-j\omega_1 t}}{2} e^{-j\Omega t} dt \\
+&= \frac{1}{2} \left\{\int_{-\infty}^{\infty} e^{j\omega_1 t} e^{-j\Omega t} dt + \int_{-\infty}^{\infty} e^{-j\omega_1 t} e^{-j\Omega t} dt \right\}\\
+&= \frac{1}{2}\left\{ 2\pi \delta(\Omega -\omega_1)+ 2\pi \delta(\Omega+\omega_1)\right\}\\
+&= \pi \delta(\Omega -\omega_1) +\pi \delta(\Omega+\omega_1)
 \end{align*}
 $$
 
@@ -41,11 +41,9 @@ $$
 $$
 \begin{align*}
 &F\left[ 1+2\sin \omega_0 t +\cos \omega_1 t \right] \\
-&=\delta(\Omega)
+&=2\pi \delta(\Omega)
 +2 \left\{ -j\pi \delta(\Omega -\omega_0) +j\pi \delta(\Omega+\omega_0) \right\}
-+\pi \delta(\Omega -\omega_0) +\pi \delta(\Omega+\omega_0) \\
-&=\delta(\Omega) + (-2j+1)\pi\delta(\Omega -\omega_0)
-+(2j+1)\pi\delta(\Omega +\omega_0)
++\pi \delta(\Omega -\omega_1) +\pi \delta(\Omega+\omega_1) \\
 \end{align*}
 $$
 
@@ -54,10 +52,9 @@ $$
 $$
 \begin{align*}
 &F\left[ 10+3\sin \omega_0 t +\cos \omega_1 t \right] \\
-&=10\delta(\Omega)
+&=20\pi\delta(\Omega)
 +3 \left\{ -j\pi \delta(\Omega -\omega_0) +j\pi \delta(\Omega+\omega_0) \right\}
-+\pi \delta(\Omega -\omega_0) +\pi \delta(\Omega+\omega_0) \\
-&=\delta(\Omega) + (-3j+1)\pi\delta(\Omega -\omega_0)
-+(3j+1)\pi\delta(\Omega +\omega_0)
++\pi \delta(\Omega -\omega_1) +\pi \delta(\Omega+\omega_1) 
 \end{align*}
 $$
+
